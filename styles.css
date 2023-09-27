@@ -1,0 +1,105 @@
+/* nav-styles.css */
+
+/* Style the navigation bar */
+nav {
+    background-color: #47A447;
+    color: #333;
+    padding: 10px 0;
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #F0FFF0;
+}
+
+
+
+
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font styles for the entire page */
+body {
+    background-color: #F0FFF0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* This ensures the footer sticks to the bottom */
+}
+
+/* Style the header section */
+header {
+    text-align: center;
+    background-color: #47A447;
+    color: #333;
+    padding: 20px;
+}
+
+/* Style the main sections */
+section {
+    background-color: #F0FFF0;
+	color: #333;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the footer */
+footer {
+    background-color: #47A447;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+/* Style links */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+	color: #0077b5;
+}
+
+/* Style the skills list */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Style individual list items in the skills section */
+li {
+    margin-bottom: 5px;
+}
